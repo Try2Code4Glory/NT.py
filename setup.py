@@ -6,12 +6,12 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="NT.py",
     version="4.1.0",
-    author="adl212",
-    author_email="emailforpythoncoding@gmail.com",
+    author="Try2Win4Code + adl212",
+    author_email="[hidden]",
     description="A package to use the nitrotype api and get player or team stats",
     long_description=long_description, # don't touch this, this is your README.md
     long_description_content_type="text/markdown",
-    url="https://github.com/adl212/NT.py",
+    url="https://github.com/Try2Code4Glory/NT.py",
     packages=['nitrotype'],
     data_files=['nitrotype/scrapers.json'],
     include_package_data = True,
